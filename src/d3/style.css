@@ -1,0 +1,23 @@
+.innerCircle {
+  border: 1px solid black !important;
+  fill: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.labelAnticlockwise {
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: rotate(180deg);
+}
+
+.labelClockwise {
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: rotate(0deg);
+  stroke: "";
+}
